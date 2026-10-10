@@ -1,0 +1,14 @@
+{
+  "Components@@tab-autohide": true,
+  "Components@@Ribbon-autohide": true,
+  "Components@@nav-header-autohide": true,
+  "Components@@tab-title-bar-autohide": true,
+  "Components@@status-bar-autohide": false,
+  "Components@@CTA-BTN-enable": true,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-black",
+  "Components@@folder-font-bold": true,
+  "Appearance-dark@@card-layout-open-dark": true,
+  "Components@@file-names-untrim": true,
+  "Editor@@border-focus-mode": false,
+  "Editor@@line-hover-indicator": true
+}
