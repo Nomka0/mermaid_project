@@ -272,7 +272,7 @@ Principio, final, y retos (pueden ser no todos por ahora)
 
 |                                        Figura 1: Dominick                                         |                                         Figura 2: Lirio y Alba                                         |                                            Figura 3: Dominick                                             |
 | :-----------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-| <img src="Pasted%20image%2020261013185746.png" alt="Figura 1: Dominick y la amada" width="260" /> | <img src="Pasted%20image%2020261013185814.png" alt="Figura 2: La escisión del tormento" width="260" /> | <img src="Pasted%20image%2020261013185824.png" alt="Figura 3: Alba y Lirio (Oráculo dual)" width="260" /> |
+| <img src="imgs/Pasted%20image%2020261013185746.png" alt="Figura 1: Dominick" width="260" /> | <img src="imgs/Pasted%20image%2020261013185814.png" alt="Figura 2: Lirio y Alba" width="260" /> | <img src="imgs/Pasted%20image%2020261013185824.png" alt="Figura 3: Dominick" width="260" /> |
 
 
 ### Contenido funcional de la pantalla
