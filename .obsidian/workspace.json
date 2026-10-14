@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "relato.md",
+                "file": "enunciado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "relato"
+              "title": "enunciado"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 239.5
   },
   "right": {
     "id": "c660d734fcb41ddd",
@@ -151,8 +151,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           },
           {
@@ -190,6 +190,13 @@
   },
   "active": "abc72fbda51e2ff6",
   "lastOpenFiles": [
+    "Pasted image 20261013185824.png",
+    "Pasted image 20261013185814.png",
+    "Pasted image 20261013185746.png",
+    "Pasted image 20261013185712.png",
+    "relato.md",
+    "historial_conversacion.md",
+    "2026-10-13.md",
     "enunciado.md"
   ]
 }
