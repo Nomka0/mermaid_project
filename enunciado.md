@@ -146,7 +146,7 @@ Dominick cometió un acto atroz en la guerra y busca expiación o un milagro par
 ### Mapa narrativo
 
 ```mermaid
-flowchart LR
+flowchart TD
     S01["S01: Umbral del Santuario<br>(Llegada de Dominick)"] --> S02["S02: Antesala del Juicio<br>(Apertura mística)"]
     S02 --> S03["S03: Altar de la Confesión<br>(Formulario de ofrenda / C01)"]
     S03 --> S04["S04: Aparición del Oráculo Dual<br>(Manifestación de Alba y Lirio)"]
