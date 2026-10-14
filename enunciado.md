@@ -7,12 +7,12 @@ Su propósito es justificar las decisiones de contenido y conservar evidencia de
 
 ### Nombre del juego
 
-[Título del equipo]
+Unspoken Words
 
 ### Autores y curso
 
 - Juan José Bolaños Delgado
-- Daniel
+- Daniel Arias Castrillón
 - Alejandra Ospina
 
 ### Datos de esta entrega
@@ -58,10 +58,10 @@ Experiencia de 8 a 12 minutos; máximo tres personajes principales; tres decisio
 
 Incluyan un formulario breve o interacción equivalente, error y recuperación, confirmación, éxito o cierre, dos estados críticos y una decisión explícita de accesibilidad. El resultado es un prototipo navegable por enlace; la programación y la alta fidelidad visual no son obligatorias.
 
-| Versión y fecha | Cambio relevante           | Autoría       |
-| :-------------- | :------------------------- | :------------ |
-| [v1/fecha]      | [Creación o actualización] | [Responsable] |
-| [v2/fecha]      | [Cambio y motivo]          | [Responsable] |
+| Versión y fecha | Cambio relevante  | Autoría            |
+| :-------------- | :---------------- | :----------------- |
+| v1 13/10/2026   | Creación          | Juan José y Daniel |
+| [v2/fecha]      | [Cambio y motivo] | [Responsable]      |
 
 ---
 
@@ -270,8 +270,9 @@ Principio, final, y retos (pueden ser no todos por ahora)
 
 [Escenario, personajes, expresiones y sonido si aplica. Expliquen su función y el equivalente textual de información indispensable.]
 
-![[Pasted image 20261013185746.png]]
-![[Pasted image 20261013185814.png]]![[Pasted image 20261013185824.png]]
+|                                        Figura 1: Dominick                                         |                                         Figura 2: Lirio y Alba                                         |                                            Figura 3: Dominick                                             |
+| :-----------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+| <img src="Pasted%20image%2020261013185746.png" alt="Figura 1: Dominick y la amada" width="260" /> | <img src="Pasted%20image%2020261013185814.png" alt="Figura 2: La escisión del tormento" width="260" /> | <img src="Pasted%20image%2020261013185824.png" alt="Figura 3: Alba y Lirio (Oráculo dual)" width="260" /> |
 
 
 ### Contenido funcional de la pantalla
