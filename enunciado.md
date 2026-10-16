@@ -62,7 +62,7 @@ Incluyan un formulario breve o interacción equivalente, error y recuperación, 
 | :--- | :--- | :--- |
 | v1 (13/10/2026) | Creación y primera estructuración del informe técnico | Juan José Bolaños y Daniel Arias |
 | v2 (15/10/2026) | Modificación y ampliación de escenarios narrativos | Juan José Bolaños |
-| v3 (15/10/2026) | Adecuación técnica al género de novela visual: eliminación de entradas de texto libre, integración del selector de ofrendas rituales (interacción equivalente), compleción de fichas de estado (E01, CR02), especificación técnica de prototipo y declaración de IA | Daniel Arias, Juan José Bolaños y Alejandra Ospina |
+| v3 (15/10/2026) | Adecuación técnica al género de novela visual: integración de ofrendas rituales (interacción equivalente), compleción de fichas de estado (E01, CR02), especificación técnica y declaración de IA en prototipo Figma | Daniel Arias, Juan José Bolaños y Alejandra Ospina |
 
 ---
 
@@ -680,14 +680,15 @@ _Sección transversal a las tres entregas_
 
 #### Herramienta propósito y material
 
-- **Herramienta y fecha:** Modelos de Inteligencia Artificial generativa de texto (ChatGPT y Claude) consultados entre el 13 y el 15 de octubre de 2026.
-- **Tarea y alcance:** Asistencia técnica secundaria en la estructuración sintética de tablas de inventario de contenido funcional, formateo de código de diagramación Mermaid y redacción preliminar de fichas de estado basadas en las directrices de la plantilla docente.
+- **Herramienta y fecha:** Herramienta de Inteligencia Artificial generativa para interfaces integrada en Figma (Figma AI / Make Designs / Wireframe Generator), consultada el 15 de octubre de 2026.
+- **Tarea y alcance:** Generación del borrador preliminar y distribución espacial básica de los wireframes de pantalla en Figma (disposición inicial de la caja de diálogo, botones de menú y modales de sistema).
+- **Alcance respecto al informe técnico:** El presente documento técnico (enunciado.md), así como la investigación de referentes, el diseño de la arquitectura narrativa, el guion completo, las reglas de interacción y las decisiones de accesibilidad fueron concebidos, estructurados y redactados al 100% por los estudiantes integrantes del equipo, sin intervención de herramientas de generación de texto.
 
 #### Revisión y decisión humana
 
-- **Rechazo y descarte de recomendaciones de la IA:** El equipo (Juan José Bolaños, Daniel Arias y Alejandra Ospina) descartó y eliminó categóricamente una propuesta generada inicialmente por la IA que pretendía incorporar campos de entrada de texto libre mecanografiado en la pantalla `S03` para escribir el nombre de la culpa del protagonista. El equipo determinó que esta propuesta desvirtuaba el género de la novela visual, aumentaba innecesariamente la complejidad técnica y rompía la inmersión. En su lugar, el equipo diseñó una interacción equivalente de selección contextual de ofrendas rituales basada en opciones claras.
-- **Autoría humana exclusiva:** Todo el guion narrativo, las motivaciones y arcos dramáticos de Dominick, Alba y Lirio, los diálogos oraculares, el dilema central de la culpa bélica, las ilustraciones originales de Alejandra Ospina y la conceptualización de los tres desenlaces fueron concebidos, escritos y refinados enteramente por los integrantes humanos del equipo.
-- **Decisión final:** Daniel Arias y Juan José Bolaños revisaron y consolidaron la coherencia técnica de las tablas, rutas y diagramas para asegurar el cumplimiento estricto de las especificaciones de la Entrega 1.
+- **Revisión, ajuste y descarte en Figma:** El equipo (Juan José Bolaños, Daniel Arias y Alejandra Ospina) auditó el borrador generado por la IA en Figma y descartó propuestas genéricas o desalineadas con la temática del proyecto. Se reestructuraron las cajas de diálogo y botones mediante Auto Layout para adaptarlos a las etiquetas de decisión moral del guion; se sustituyeron estilos neutros por la estética de fantasía oscura y trazo artesanal coherente con las ilustraciones de Alejandra Ospina (@alew.scrawl); se validaron los niveles de contraste con el plugin Stark para cumplir WCAG 2.1 AA; y se realizaron manualmente todas las conexiones interactivas de prototipado (*On click* y *Open overlay*).
+- **Autoría humana exclusiva:** Todo el concepto de juego, la historia de Dominick, el lore de las juezas Alba y Lirio, los dilemas éticos, los diálogos definitivos y los bocetos artísticos son obra original e intelectual de los integrantes del equipo.
+- **Decisión final:** Daniel Arias y Juan José Bolaños supervisaron la implementación final del prototipo en Figma y validaron la redacción íntegra del informe para la Entrega 1.
 
 ### Índice de anexos y evidencias
 
