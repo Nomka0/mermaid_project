@@ -39,13 +39,13 @@ _Completar en la entrega 1 y actualizar en las entregas 2 y 3_
 
 ### Resumen técnico
 
-Esta micronovela visual aborda la dificultad de representar dilemas morales interactivos donde las decisiones del jugador impactan genuinamente en el desarrollo ético y psicológico del protagonista, superando las ramificaciones cosméticas tradicionales. Diseñada para un público joven adulto y universitario (18 a 30 años) con interés en ficciones interactivas y narrativa de fantasía oscura, la obra sitúa al usuario en el rol de Dominick, un caballero cuyas determinaciones frente a situaciones límite van moldeando progresivamente los rasgos de su personalidad (honor, pragmatismo o desapego). El propósito es propiciar una experiencia inmersiva y reflexiva, pero a la vez intensa donde cada elección dialógica desencadene consecuencias éticas tangibles, bifurcando el relato hacia tres desenlaces contrastantes a través de distintos escenarios. La solución se materializa en un prototipo interactivo navegable desarrollado en Figma, que incorpora microcopy contextual, decisiones de bifurcación con memoria narrativa y estados de validación funcional. El prototipo se encuentra en fase inicial de diseño y especificación técnica para la Entrega 1; los resultados empíricos y pruebas con usuarios quedan marcados como pendientes para iteraciones posteriores.
+Esta micronovela visual aborda la dificultad de representar dilemas morales interactivos donde las decisiones del jugador impactan genuinamente en el desarrollo ético y psicológico del protagonista, superando las ramificaciones cosméticas tradicionales. Diseñada para un público joven adulto y universitario (18 a 30 años) con interés en ficciones interactivas y narrativa de fantasía oscura, la obra sitúa al usuario en el rol de Dominick, un caballero cuyas determinaciones frente a situaciones límite van moldeando progresivamente los rasgos de su personalidad (honor, pragmatismo o desapego). El propósito es propiciar una experiencia inmersiva y reflexiva, pero a la vez intensa donde cada elección, desencadene consecuencias éticas tangibles, el relato lleva a tres posibles desenlaces contrastantes a través de distintos escenarios. La solución se materializa en un prototipo interactivo navegable desarrollado en Figma, que incorpora microcopy contextual, decisiones de bifurcación con memoria narrativa y estados de validación funcional. 
 
 ### Problema y propósito
 
-**Problema:** En el diseño de narrativas interactivas, las decisiones morales suelen reducirse a elecciones binarias superficiales («bueno» vs. «malo») que generan disonancia ludo-narrativa, provocando que el usuario no sienta el peso real de sus acciones ni perciba cómo forjan el carácter del personaje.
+**Problema:** En el diseño de narrativas interactivas, las decisiones morales suelen reducirse a elecciones binarias superficiales ("bueno" vs. "malo") que generan disonancia ludo-narrativa, provocando que el usuario no sienta el peso real de sus acciones ni perciba cómo forjan el carácter del personaje.
 
-**Propósito:** Brindar una experiencia donde el jugador deba navegar dilemas éticos sin respuestas fáciles, comprendiendo que cada línea de diálogo y acción asumida moldea internamente la brújula moral de Dominick (orientándolo hacia el honor inflexible, el pragmatismo despiadado o el desapego nihilista) y determina directamente su destino final.
+**Propósito:** Brindar una experiencia donde el jugador deba navegar dilemas éticos sin respuestas fáciles, comprendiendo que cada línea de diálogo y acción asumida moldea internamente la brújula moral de Dominick y determina directamente su destino.
 
 **Criterio observable de éxito:**
 1. Al menos el 80% de los evaluadores identifica con claridad en cuál de las facetas éticas concluyó Dominick tras su partida.
@@ -58,10 +58,10 @@ Experiencia de 8 a 12 minutos; máximo tres personajes principales; tres decisio
 
 Incluyan un formulario breve o interacción equivalente, error y recuperación, confirmación, éxito o cierre, dos estados críticos y una decisión explícita de accesibilidad. El resultado es un prototipo navegable por enlace; la programación y la alta fidelidad visual no son obligatorias.
 
-| Versión y fecha | Cambio relevante  | Autoría            |
-| :-------------- | :---------------- | :----------------- |
-| v1 13/10/2026   | Creación          | Juan José y Daniel |
-| [v2/fecha]      | [Cambio y motivo] | [Responsable]      |
+| Versión y fecha | Cambio relevante        | Autoría            |
+| :-------------- | :---------------------- | :----------------- |
+| [v1 13/10/2026] | Creación                | Juan José y Daniel |
+| [v2 15/10/2026] | Modificación escenarios | Juan José          |
 
 ---
 
@@ -72,13 +72,13 @@ _Entrega 1_
 ### Público y contexto de uso
 
 - **Perfil del público:** Jóvenes adultos y estudiantes universitarios (18 a 30 años) con interés en géneros de fantasía oscura, rol (RPG) y novelas visuales narrativas.
-- **Experiencia previa:** Familiaridad media con mecánicas de diálogo de elección múltiple y lectura interactiva en pantalla.
+- **Experiencia previa:** Leve familiaridad con mecánicas de diálogo de elección múltiple y lectura interactiva en pantalla.
 - **Necesidades de lectura:** Requieren textos fragmentados y concisos (máximo 3 a 4 líneas por bloque narrativo), microcopy funcional que evidencie la intención de la respuesta antes de pulsar y ritmo pausado con control manual de avance.
-- **Dispositivo y entorno:** Acceso mediante enlace de Figma en navegadores de escritorio (resolución 1920×1080 o laptops) y adaptable a dispositivos móviles. El uso se sitúa en sesiones cortas y concentradas de 8 a 12 minutos en entornos cotidianos (hogar o estudio).
+- **Dispositivo y entorno:** Acceso mediante enlace de Figma en navegadores de escritorio (resolución 1920×1080 o laptops). El uso se sitúa en sesiones cortas y concentradas de 8 a 12 minutos en entornos cotidianos (hogar o estudio).
 - **Sustento y supuestos:**
   - `[Evidencia]`: Hábitos consolidados de consumo de medios interactivos y narrativas ramificadas en el rango del curso.
   
-  - `[Supuesto]`: Preferencia por opciones dialógicas con intención explícita frente a las elecciones del jugador. disposición a rejugar para explorar los 3 desenlaces (pendiente de validación empírica en la Entrega 2).
+  - `[Supuesto]`: Preferencia por opciones de dialogo con intención explícita frente a las elecciones del jugador. disposición a rejugar para explorar los 3 desenlaces (pendiente de validación empírica en la Entrega 2).
 
 ### Necesidades y riesgos comunicativos
 
@@ -88,24 +88,27 @@ _Entrega 1_
   - Se debe informar cuándo una acción es crítica o irreversible mediante avisos previos o pantallas de confirmación (`CF01`).
 
 - **Confusiones, barreras y riesgos de exclusión a prevenir:**
-  - *Disonancia de intención (falsa expectativa dialógica):* Prevenir que una etiqueta resumida haga decir a Dominick algo inesperado para el jugador. **Ajuste:** Diseñar etiquetas con verbos de acción e intención explícita (ej. «Cuestionar con frialdad» en lugar de un ambiguo «Hablar»).
-  - *Sobrecarga cognitiva:* Evitar párrafos largos de prosa descriptiva que saturen al lector y diluyan la tensión del dilema. **Ajuste:** Jerarquía visual estricta y separación nítida entre texto narrativo y microcopy funcional.
+  - *Disonancia de intención (falsa expectativa dialógica):* Prevenir que una etiqueta resumida haga decir a Dominick algo inesperado para el jugador. **Ajuste:** Diseñar etiquetas con verbos de acción e intención explícita (ej. "Cuestionar con frialdad" en lugar de un ambiguo "Hablar").
   - *Barreras visuales y contraste:* Evitar tipografías demasiado ornamentales e ilegibles o bajo contraste sobre fondos oscuros. **Ajuste:** Cumplimiento de ratio de contraste WCAG AA (mínimo 4.5:1) y tipografía sans-serif legible en botones y diálogos.
 
+	![[Pasted image 20261015155647.png]]
+
+Niveles de contraste WCAG en texto regular. Fuente: Stark plugin / Accessible contrast ratios and A-levels explained
 ### Análisis de referentes
 
 Seleccionen obras o interfaces pertinentes. Comparen decisiones de narrativa y contenido; no se limiten a describir su apariencia. Incluyan la fuente y la fecha de consulta.
 
-| Referente y fuente                                            | Qué se analiza                                                                                                                     | Aplicación al proyecto                                      |
-| :------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------- |
-| [Arte de alew.scrawl](https://www.instagram.com/alew.scrawl/) | Estilo visual/artistico para los personajes y la interfaz                                                                          | Uso de personajes con permiso y participación del artista   |
-| De lo espiritual en el arte - Vasili Kandinski                | Sobre los colores y cómo pueden influir en la personalidad de ciertos personajes (Lirio y Alba)                                    | Conceptos de teoría de color                                |
-| Narciso y Goldmundo - Herman Hesse                            | Se analizan a los personajes, porque tienen similitud con el concepto inicial de personalidad de ciertos personajes (Lirio y Alba) | Inspiración y referente para personajes y sus interacciones |
-|                                                               |                                                                                                                                    |                                                             |
+| Referente y fuente                                            | Qué se analiza                                                                                                                             | Aplicación al proyecto                                    |
+| :------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------- |
+| [Arte de alew.scrawl](https://www.instagram.com/alew.scrawl/) | Estilo visual/artistico para los personajes y la interfaz                                                                                  | Uso de personajes con permiso y participación del artista |
+| De lo espiritual en el arte - Vasili Kandinski                | Sobre los colores y cómo pueden influir en la personalidad de ciertos personajes (Lirio y Alba). En relación a las 4 antinomias del color. | Conceptos de teoría de color                              |
 
 ### Conclusión del análisis
 
 [Qué aprendieron de los referentes y cómo orienta su propuesta. Diferencien hallazgos de las fuentes y decisiones propias.]
+
+Los personajes que usaremos tienen una naturaleza medieval, mística y algo oscura, de igual la manera en que Alejandra los trata, alude mucho a la introspección, y también a experiencias mundanas, que a pesar de ser tan normales en nuestro día a día son importantes y juegan un papel intrínseco en nuestras vidas. El objetivo es plasmar un poco eso ahí, la introspección en la naturaleza noble del caballero, y la introversión y extraversión de los personajes. Este último aspecto se estudia bastante en el color, y también como el color puede acercarse al espectador o alejarse de él, no solo al nivel de la personalidad de los personajes, sino también de lo que se quiere comunicar con los diálogos, la interfaz, y las opciones de selección a lo largo de la experiencia del usuario.
+
 
 ### Criterios para evaluar la experiencia
 
@@ -113,11 +116,11 @@ Para evaluar la interacción y la recepción narrativa del prototipo durante las
 
 1. **Anticipación de la acción e intención dialógica:**
    - *Indicador observable:* La persona comprende la actitud y carga moral que adoptará Dominick antes de presionar un botón de opción en el diálogo.
-   - *Método de comprobación:* Protocolo de pensamiento en voz alta (*Think Aloud*) en las tres decisiones clave (`D01`, `D02`, `D03`); meta: al menos el 85% de los participantes anticipa correctamente la postura que asumirá el personaje.
+   - *Método de comprobación:* Protocolo de pensamiento en voz alta (*Think Aloud*) en las tres decisiones clave (`D01`, `D02`, `D03`); meta: al menos el 80% de los participantes anticipa correctamente la postura que asumirá el personaje.
 
 2. **Diferenciación y peso de las opciones morales:**
    - *Indicador observable:* La persona distingue con claridad el contraste ético entre las alternativas de cada decisión, sin percibir que conducen al mismo resultado por mero artificio estético.
-   - *Método de comprobación:* Pregunta cualitativa post-decisión («¿Sentiste que las opciones representaban caminos morales distintos?»); umbral esperado: calificación promedio ≥ 4/5 en escala Likert de diferenciación.
+   - *Método de comprobación:* Pregunta cualitativa post-decisión ("¿Sentiste que las opciones representaban caminos morales distintos?"); umbral esperado: calificación promedio ≥ 4/5.
 
 3. **Recuperación autónoma del estado de error (`E01`):**
    - *Indicador observable:* Al interactuar con la pantalla de error del formulario o mecanismo, el usuario comprende la causa del fallo y localiza la salida navegable sin abandonar la experiencia ni reiniciar el prototipo.
@@ -125,7 +128,7 @@ Para evaluar la interacción y la recepción narrativa del prototipo durante las
 
 4. **Completitud de ruta y atribución causal del desenlace:**
    - *Indicador observable:* La persona completa una sesión de lectura de 8 a 12 minutos hasta uno de los tres desenlaces (`F01`, `F02` o `F03`) y atribuye el destino final de Dominick a las decisiones tomadas a lo largo de los diálogos.
-   - *Método de comprobación:* Cuestionario de cierre con la pregunta: «¿El final obtenido se sintió consecuente con la personalidad que construiste para Dominick?»; meta esperada: ≥ 80% de respuestas afirmativas fundamentadas en elecciones previas.
+   - *Método de comprobación:* Cuestionario de cierre con la pregunta: "¿El final obtenido se sintió consecuente con la personalidad que construiste para Dominick?"; meta esperada: ≥ 80% de respuestas afirmativas fundamentadas en elecciones previas.
 
 ---
 
@@ -135,13 +138,13 @@ _Entrega 1_
 
 ### Premisa y dilema central
 
-Dominick cometió un acto atroz en la guerra y busca expiación o un milagro para su pueblo. Viaja al santuario  prohibido de Alba y Lirio, quienes actúan como juezas oraculares (Alba juzga la intención/emoción; Lirio juzga el hecho/consecuencia).
+Dominick cometió un acto atroz en la guerra, algo de lo que se siente muy arrepentido, porque no se siente orgulloso de ello para nada y busca expiación. Viaja al santuario  prohibido de Alba y Lirio, ellas actúan como juezas del oraculo (Alba juzga la intención/emoción; Lirio juzga el hecho/consecuencia).
 
-| Personaje | Función narrativa                        | Motivación y relación                                        |
-| :-------- | :--------------------------------------- | :----------------------------------------------------------- |
-| Dominick  | Protagonista                             | [Qué busca y cómo se relaciona]                              |
-| Alba      | Reto a superar/ jueza moral (emocional)  | Definir el destino de Dominick de acuerdo a lo que él siente |
-| Lirio     | Reto a superar/ jueza moral (pragmatico) | Definir el destino de Dominick                               |
+| Personaje | Función narrativa                        | Motivación y relación                                                                                                                                                               |
+| :-------- | :--------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dominick  | Protagonista                             | Aún se está por definir con exactitud. Sin embargo por ahora la motivación es la redención y su propia paz, buscará esto a través de una aventura que puede llegar a ser peligrosa. |
+| Alba      | Reto a superar/ jueza moral (emocional)  | Definir el destino de Dominick de acuerdo a lo que él siente en las decisiones que toma a lo largo de los retos                                                                     |
+| Lirio     | Reto a superar/ jueza moral (pragmatico) | Definir el destino a partir no de su ejercicio mental y moral para decidir la resolución del reto en cuestión, sino del resultado de este.                                          |
 
 ### Mapa narrativo
 
@@ -179,27 +182,6 @@ flowchart TD
     S13 --> S14
 ```
 
-#### Descripción textual equivalente del mapa narrativo
-
-1. **Ruta inicial y rito de ofrenda (S01 a S04):**
-   - El recorrido inicia en **S01** (Umbral del Santuario) y avanza a **S02** (Antesala).
-   - En **S03** se despliega el formulario breve de inscripción/ofrenda (`C01`) para registrar el voto del peregrino, coneictando directamente con **S04**, donde se manifiestan Alba y Lirio.
-1. **Primera bifurcación y reconexión (S05 a S06):**
-   - En **S05** se presenta la primera decisión significativa (**D01** sobre el pasado en la guerra) con tres opciones: asumir la culpa con dolor (**D01 A**), justificar la necesidad militar (**D01 B**) o guardar silencio desafiante (**D01 C**).
-   - Todas las opciones reconectan en **S06** (Eco del Veredicto Inicial), alterando el diálogo de las siamesas y el balance de juicio moral acumulado.
-3. **Segunda bifurcación y estado crítico 1 (S07 a S08):**
-   - En **S07** se plantea la segunda decisión (**D02** ante el enemigo derrotado): perdonar (**D02 A**) o ejecutar (**D02 B**).
-   - Ambas ramas conducen a **S08**, donde se detona el estado crítico **CR01** (Crisis de lucidez moral / temblor del santuario) que confronta a Dominick con el peso acumulado de sus actos.
-4. **Tercera bifurcación, confirmación y deliberación (S09 a S10):**
-   - En **S09** se ejecuta la decisión clímax (**D03** en el Núcleo): entregar la espada con humildad (**D03 A**) o exigir la gracia por la fuerza de sus méritos (**D03 B**).
-   - Previo al paso irreversible, se despliega la pantalla de confirmación **CF01**. Si el usuario confirma, avanza a **S10**; si cancela, regresa a **S09**.
-   - En **S10** se vive el estado crítico **CR02** durante la deliberación de las siamesas, evaluando el balance ético acumulado.
-5. **Bifurcación de desenlaces y cierre (S11 a S14):**
-   - **Desenlace F01 (S11):** Alba y Lirio coinciden a favor; Dominick obtiene la redención y la paz interior.
-   - **Desenlace F02 (S12):** Alba y Lirio entran en contradicción moral no resuelta; el juicio queda congelado y Dominick queda atrapado indefinidamente en el santuario.
-   - **Desenlace F03 (S13):** Alba y Lirio coinciden en contra; rechazan sus justificaciones y Dominick es expulsado con su culpa intacta.
-   - Los tres desenlaces convergen en **S14** (**EX01**), pantalla final que resume la personalidad forjada por el jugador, tiempo de lectura y control para reiniciar el recorrido.
-
 ### Reglas y memoria de las decisiones
 
 - **Variables conservadas en memoria:**
@@ -209,44 +191,44 @@ flowchart TD
 - **Cómo condiciona escenas y finales:**
   - En `S06`, el diálogo de las siamesas varía sutilmente según la opción elegida en `D01`.
   - En `S10` (`CR02`), se evalúa el balance combinado de ambas variables para determinar el veredicto unánime a favor (`F01`), el conflicto entre ellas (`F02`), o la condena unánime (`F03`).
-- **Simulación en Figma y límites técnicos:** Al ser un prototipo en Figma, la lógica de variables condicionales se simula mediante ramificación de componentes interactivos y variables locales de prototipo (Figma Variables). En rutas donde la herramienta no soporta cálculo aritmético complejo, se mapean conexiones directas representativas por ruta crítica.
 
 ### Ficha de decisión repetible
 
 #### Decisión D01: La Confesión del Pasado (Pantalla S05)
 *Frente al estanque del santuario, Alba y Lirio interrogan a Dominick sobre la aldea destruida bajo su mando durante la guerra.*
 
-| Opción y texto visible | Consecuencia narrativa | Estado y destino |
-| :---------------------- | :--------------------- | :--------------- |
-| **D01 A:** «Reconocer la culpa con pesar: "Seguí órdenes crueles y la sangre mancha mis manos"» | Dominick asume la responsabilidad con dolor y arrepentimiento sincero. Conmueve la empatía de Alba y demuestra franqueza ante Lirio. | `Afinidad_Alba += 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S06` |
-| **D01 B:** «Justificar el acto por estrategia militar: "Era la guerra; vacilar habría costado la vida de mi pelotón"» | Dominick apela a la dura lógica castrense. Lirio valida el razonamiento táctico, pero Alba resiente la falta de remordimiento humano. | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S06` |
-| **D01 C:** «Responder con frialdad desafiante: "La piedad en el campo de batalla solo engendra más tumbas"» | Dominick muestra un corazón endurecido y cínico. Ambas siamesas perciben soberbia e incapacidad de redención. | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio -= 1`<br>Destino: `S06` |
+| Opción y texto visible                                                                                               | Consecuencia narrativa                                                                                                                    | Estado y destino                                                |
+| :------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- |
+| **D01 A:** Reconocer la culpa con pesar: "Seguí órdenes crueles y la sangre mancha mis manos"                        | Dominick asume la responsabilidad con dolor y arrepentimiento sincero. Conmueve la empatía de Alba y demuestra franqueza ante Lirio.      | `Afinidad_Alba += 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S06` |
+| **D01 B:** "Justificar el acto por estrategia militar: "Era la guerra; vacilar habría costado la vida de mi pelotón" | Dominick apela a la dura lógica militar. Lirio valida el razonamiento táctico, pero Alba resiente la falta de remordimiento humano.       | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S06` |
+| **D01 C:** "Responder con frialdad desafiante: "La piedad en el campo de batalla solo engendra más tumbas"           | Dominick muestra un corazón endurecido por la guerra y las secuelas de esta. Ambas siamesas perciben soberbia e incapacidad de redención. | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio -= 1`<br>Destino: `S06` |
+|                                                                                                                      |                                                                                                                                           |                                                                 |
 
 #### Decisión D02: El Juicio del Enemigo Herido (Pantalla S07)
 *El oráculo proyecta la visión espectral del general enemigo derrotado, desarmado y suplicando clemencia.*
 
-| Opción y texto visible | Consecuencia narrativa | Estado y destino |
-| :---------------------- | :--------------------- | :--------------- |
-| **D02 A:** «Bajar la espada y perdonar la vida: "El ciclo de sangre se detiene aquí"» | Dominick renuncia a la venganza. Alba exalta la pureza de la compasión y Lirio constata el autocontrol sobre los instintos destructivos. | `Afinidad_Alba += 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S08` (`CR01`) |
-| **D02 B:** «Ejecutarlo en nombre de la justicia marcial: "Tus crímenes exigen retribución, no misericordia"» | Dominick aplica la ley marcial con severidad. Lirio acepta la equidad del castigo, pero Alba lamenta la ausencia de compasión. | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S08` (`CR01`) |
-| **D02 C:** «Burlarse de su derrota antes de ultimarlo: "Suplicas ahora la piedad que jamás concediste"» | Dominick manifiesta crueldad y deleite en la humillación ajena. Ambas juezas reprueban unánimemente su degradación ética. | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio -= 1`<br>Destino: `S08` (`CR01`) |
+| Opción y texto visible                                                                                         | Consecuencia narrativa                                                                                                                   | Estado y destino                                                         |
+| :------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------- |
+| **D02 A:** Bajar la espada y perdonar la vida: "El ciclo de sangre se detiene aquí"                            | Dominick renuncia a la venganza. Alba exalta la pureza de la compasión y Lirio constata el autocontrol sobre los instintos destructivos. | `Afinidad_Alba += 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S08` (`CR01`) |
+| **D02 B:** Ejecutarlo en nombre de la justicia marcial: "Tus crímenes claman retribución, no misericordia"     | Dominick aplica la ley marcial con severidad. Lirio acepta la equidad del castigo, pero Alba lamenta la ausencia de compasión.           | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio += 1`<br>Destino: `S08` (`CR01`) |
+| **D02 C:** Burlarse de su derrota antes de ultimarlo: "Suplicas ahora la piedad que jamás fuiste capaz de dar" | Dominick manifiesta crueldad y deleite en la humillación ajena. Ambas juezas reprueban unánimemente su degradación ética.                | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio -= 1`<br>Destino: `S08` (`CR01`) |
 
 #### Decisión D03: La Consagración en el Núcleo (Pantalla S09)
-*Ante la llama viva del Núcleo de las Almas, Dominick debe formalizar su petición de redención.*
+*Ante la llama viva del Núcleo de las Almas, Dominick debe formalizar su petición de redención.* (Esto se puede cambiar en el futuro siendo representado por alguna criatura de forma metafórica, por ahora se va a dejar como un dialogo para fines de simplicidad al hacer el prototipo)
 
-| Opción y texto visible                                                                                            | Consecuencia narrativa                                                                                                                           | Estado y destino                                                                |
-| :---------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| **D03 A:** «Rendir la espada y jurar penitencia: "Renuncio a las armas; consagraré mi vida a reparar el daño"»    | Dominick renuncia al poder y abraza la humildad reparadora. Consolida la aprobación unánime de las siamesas.                                     | `Afinidad_Alba += 1`<br>`Afinidad_Lirio += 1`<br>Destino: `CF01` (Confirmación) |
-| **D03 B:** «Exigir la absolución como mérito de honor: "He servido con lealtad a la corona y purgado mi culpa"»   | Dominick intenta negociar su redención como un título ganado. Lirio evalúa sus servicios objetivos, pero Alba rechaza la soberbia transaccional. | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio += 1`<br>Destino: `CF01` (Confirmación) |
-| **D03 C:** «Rechazar la autoridad del santuario: "No mendigaré el perdón de ningún oráculo para seguir adelante"» | Dominick rompe el rito con desprecio altivo, consumando la total corrupción de su propósito inicial.                                             | `Afinidad_Alba -= 2`<br>`Afinidad_Lirio -= 2`<br>Destino: `CF01` (Confirmación) |
+| Opción y texto visible                                                                                          | Consecuencia narrativa                                                                                                                           | Estado y destino                                                                |
+| :-------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **D03 A:** Rendir la espada y jurar penitencia: "Renuncio a las armas; consagraré mi vida a repa                | Dominick renuncia al poder y abraza la humildad reparadora. Consolida la aprobación unánime de las siamesas.                                     | `Afinidad_Alba += 1`<br>`Afinidad_Lirio += 1`<br>Destino: `CF01` (Confirmación) |
+| **D03 B:** Exigir la absolución como mérito de honor: "He servido con lealtad a la corona y purgado mi culpa"   | Dominick intenta negociar su redención como un título ganado. Lirio evalúa sus servicios objetivos, pero Alba rechaza la soberbia transaccional. | `Afinidad_Alba -= 1`<br>`Afinidad_Lirio += 1`<br>Destino: `CF01` (Confirmación) |
+| **D03 C:** Rechazar la autoridad del santuario: "No mendigaré el perdón de ningún oráculo para seguir adelante" | Dominick rompe el rito con desprecio altivo, consumando la total corrupción de su propósito inicial.                                             | `Afinidad_Alba -= 2`<br>`Afinidad_Lirio -= 2`<br>Destino: `CF01` (Confirmación) |
 
 ### Condiciones de los desenlaces
 
-| Código y Nombre | Condición de activación | Relación causal y comunicación con el jugador |
-| :-------------- | :---------------------- | :-------------------------------------------- |
-| **F01: Despertar Iluminado (Redención Obtenida)** | **Consenso a favor de ambas siamesas:** `Afinidad_Alba ≥ +2` y `Afinidad_Lirio ≥ +2`. Ocurre al acumular opciones A (arrepentimiento sincero, perdón y humildad). | **Comunicación:** Alba baña el estanque con luz dorada en señal de perdón moral, mientras Lirio entrega la gema purificada del santuario como reconocimiento de un juicio justo. Dominick despierta en el plano terrenal libre del peso del pasado, renacido como un caballero protector y compasivo. |
-| **F02: Juicio Inconcluso (Atrapado en el Limbo)** | **Desacuerdo entre las siamesas:** Asimetría moral en las respuestas (`Afinidad_Lirio` positivo pero `Afinidad_Alba` negativo, o contradicción entre opciones de culpa y de venganza). | **Comunicación:** Alba defiende que hay dolor en su alma y pide piedad, pero Lirio argumenta con severidad que sus actos no demuestran una transformación ética real. Al no existir consenso armónico, el santuario se envuelve en una niebla espectral perpetua; Dominick queda suspendido en un limbo meditativo sin poder despertar. |
-| **F03: Destierro Eterno (Redención Denegada)** | **Consenso en contra de ambas siamesas:** `Afinidad_Alba ≤ -1` y `Afinidad_Lirio ≤ -1`. Ocurre al acumular opciones B y C (soberbia militar, crueldad o desprecio del rito). | **Comunicación:** Alba aparta el rostro con tristeza y repulsión, mientras Lirio proclama con voz atronadora la sentencia de expulsión. El santuario colapsa en sombras y expulsa a Dominick con violencia. El caballero despierta solo en las ruinas físicas, portando una armadura corroída y condenado a arrastrar su culpa sin redención posible. |
+| Código y Nombre                                   | Condición de activación                                                                                                                                                                | Relación causal y comunicación con el jugador                                                                                                                                                                                                                                                                                                                                                |
+| :------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **F01: Despertar Iluminado (Redención Obtenida)** | **Consenso a favor de ambas siamesas:** `Afinidad_Alba ≥ +2` y `Afinidad_Lirio ≥ +2`. Ocurre al acumular opciones A (arrepentimiento sincero, perdón y humildad).                      | **Comunicación:** Alba baña el estanque con luz dorada en señal de perdón moral, mientras Lirio, _como el rocio del jardín en el amanecer_ se acerca lentamente a Dominick, como en un baile hipnotico, brindandole una flor de lirio de agua, símbolo de juicio justo. Dominick despierta en el plano terrenal libre del peso del pasado, renacido como un caballero protector y compasivo. |
+| **F02: Juicio Inconcluso (Atrapado en el Limbo)** | **Desacuerdo entre las siamesas:** Asimetría moral en las respuestas (`Afinidad_Lirio` positivo pero `Afinidad_Alba` negativo, o contradicción entre opciones de culpa y de venganza). | **Comunicación:** Alba defiende que hay dolor en su alma y pide piedad, pero Lirio argumenta con severidad que sus actos no demuestran una transformación ética real. Al no existir consenso armónico, el santuario se envuelve en niebla; Dominick queda suspendido en un limbo meditativo sin poder despertar. Las siguientes generaciones hablarán de esto.                               |
+| **F03: Destierro Eterno (Redención Denegada)**    | **Consenso en contra de ambas siamesas:** `Afinidad_Alba ≤ -1` y `Afinidad_Lirio ≤ -1`. Ocurre al acumular opciones B y C (soberbia militar, crueldad o desprecio del rito).           | **Comunicación:** Alba aparta el rostro con tristeza y repulsión, mientras Lirio proclama con voz atronadora la sentencia de expulsión. El santuario colapsa en sombras y expulsa a Dominick con violencia. El caballero despierta solo en las ruinas físicas, portando una armadura corroída y condenado a arrastrar su culpa sin redención posible.                                        |
 
 ---
 
@@ -260,36 +242,98 @@ Principio, final, y retos (pueden ser no todos por ahora)
 
 ### Identificación y propósito
 
-[Código Sxx, nombre, función, requisito de entrada y vínculo con la decisión Dxx o final Fxx.]
+- **Inicio (S01: Umbral del Santuario):** Entrada del caballero al recinto sacro. Requisito: inicio de sesión. Vínculo: conduce a la antesala `S02` y prepara el rito de confesión.
+- **Retos y decisiones intermedias (S05, S07, S09):** Pruebas de moralidad progresiva vinculadas a las decisiones `D01` (pasado bélico), `D02` (venganza vs clemencia) y `D03` (consagración del voto final ante `CF01`).
+- **Desenlaces (S11, S12, S13) y Cierre (S14):** Veredictos emanados de la deliberación `S10` según afinidad acumulada (`F01` Redención Obtenida, `F02` Juicio Inconcluso, `F03` Destierro Eterno), convergiendo en el epílogo moral `S14`.
 
 ### Contenido narrativo
 
-[Texto definitivo de narración, diálogo y pensamientos. Identifiquen quién habla; indiquen variantes según decisiones previas.]
+#### 1. Guion de inicio (S01: Umbral del Santuario)
+- **Narrador:** La niebla devora los peldaños de piedra carcomida. Dominick desciende de su montura; el acero resuena apagado en estas tierras abandonadas.
+- **Dominick (pensamiento):** "Tantas lunas huyendo del olor a ceniza... Si este oráculo no lava la sangre de mis manos, que sus losas me sirvan de sepulcro".
+- **Sistema:** "El Santuario Olvidado aguarda en silencio; solo quienes cargan con una culpa verdadera cruzan su umbral".
+
+#### 2. Escenarios preliminares del caballero (Sujetos a cambios tras iteraciones de diseño)
+> [!NOTE]
+> *Nota:* Estos escenarios son preliminares y están sujetos a modificaciones según la evolución del prototipo y las pruebas con usuarios.
+- **Escenario 1: El Umbral y la Antesala en Ruinas (`S01`, `S02`):** Arquitectura gótica ruinosa cubierta de musgo fosforescente y raíces petrificadas. Aire helado cargado de un incienso rancio.
+- **Escenario 2: El Altar de la Confesión y el Estanque del Juicio (`S03` a `S07`):** Cámara subterránea acompañada por un espejo de agua oscura. Cuando se vierte la ofrenda emergen las figuras etéreas de Alba y Lirio, proyectando recuerdos bélicos sobre la superficie líquida.
+- **Escenario 3: El Núcleo de las Almas en Crisis (`S08`, `S09`, `S10`):** Cámara circular suspendida sobre un vacío insondable. Las aguas hierven en destellos violetas y dorados al someter a prueba la voluntad de Dominick antes del veredicto irreversible.
+
+#### 3. Guion de escenarios de decisión
+
+- **Decisión D01: La Confesión del Pasado (`S05` - Estanque del Juicio):**
+  - **Lirio:** "El agua refleja las llamas en la cámara. Mujeres y niños consumidos por  de tu batallón. ¿Qué alega la espada que encendió la pira?"
+  - **Alba:** "Habla sin artificios, caballero. No buscamos hazañas, sino la verdad que esconde tu pecho".
+  - *Opciones de Dominick:*
+    - **D01 A:** "Seguí órdenes crueles y la sangre mancha mis manos. No hay excusa que limpie el fuego".
+    - **D01 B:** "Era la guerra; vacilar habría costado la vida de mi pelotón. Elegí la supervivencia de mis hombres".
+    - **D01 C:** "La piedad en el campo de batalla solo engendra más tumbas. Quien vacila perece".
+
+- **Decisión D02: El Juicio del Enemigo Herido (`S07` - Reflejo Espectral):**
+  - **Narrador:** La superficie del estanque se retuerce. Se materializa el espectro del general enemigo, desarmado, tosiendo ceniza y arrastrándose a los pies de Dominick.
+  - **Lirio:** "El verdugo de tus hermanos yace a tu merced. La balanza aguarda tu dictamen marcial".
+  - **Alba:** "El odio exige sangre para saciarse; la piedad, en cambio, exige romper la cadena de la muerte".
+  - *Opciones de Dominick:*
+    - **D02 A:** "El ciclo de sangre se detiene aquí. No sumaré más horrores a esta armadura".
+    - **D02 B:** "Tus crímenes claman retribución, no misericordia. Que la justicia de la espada se cumpla".
+    - **D02 C:** "Suplicas ahora la piedad que jamás fuiste capaz de dar. Disfrutaré viendo cómo expiras".
+
+- **Decisión D03: La Consagración en el Núcleo (`S09` - Voto Irrevocable):**
+  - **Narrador:** El Núcleo de las Almas pulsa con una llama espectral que desgarra la penumbra.
+  - **Lirio:** "Llegaste al corazón del juicio. Todo lo dicho hasta aquí se funde en tu voto postrero".
+  - **Alba:** "¿Qué ofreces a cambio de tu paz, Dominick? No habrá segunda oportunidad tras este umbral".
+  - *Opciones de Dominick:*
+    - **D03 A:** "Renuncio a las armas; consagraré mi vida a reparar a los inocentes".
+    - **D03 B:** "He servido con lealtad a la corona y purgado mi culpa con devoción marcial; exijo mi absolución".
+    - **D03 C:** "No mendigaré el perdón de ningún oráculo para seguir adelante. Mi voluntad es mi propia ley".
+
+#### 4. Guion de los finales
+- **Final F01: Despertar Iluminado (`S11` - Consenso a favor):**
+  - **Alba:** "Tu dolor no fue en vano, caballero. Quien reconoce la herida ajena puede curar la propia".
+  - **Lirio:** "La justicia no exige exterminio, sino templanza y enmienda. Toma este brote de agua; levántate absuelto".
+  - **Narrador:** Una luz dorada disuelve el frío de la armadura. Dominick despierta entre ruinas bañadas por el amanecer, con el corazón pacificado y el deber de proteger a los desamparados.
+- **Final F02: Juicio Inconcluso (`S12` - Desacuerdo oracular):**
+  - **Alba:** "Lloras por tus faltas, lloras y seguirás llorando, Dominick, veo la lágrima en tu memoria..."
+  - **Lirio:** "Pero sus manos aún empuñan una justificación! No hay pureza donde cohabiten la piedad fingida y el orgullo de la espada!!".
+  - **Narrador:** Las voces se superponen y se sobrelapan de forma disonante. La niebla se espesa hasta cegar el santuario. El caballero queda suspendido en un limbo inmóvil, prisionero de su propia contradicción ética.
+- **Final F03: Destierro Eterno (`S13` - Rechazo unánime):**
+  - **Alba (apartando el rostro):** "No buscas absolución, sino permiso para continuar matando sin remordimiento".
+  - **Lirio (voz atronadora):** "Veredicto consumado: indigno. Lleva tu soberbia de vuelta al lodo de los hombres mortales!!"
+  - **Narrador:** Las aguas se tornan pez negra. Una fuerza aplastante expulsa a Dominick hacia la intemperie. Despierta en el fango, con la coraza herrumbrada y el tormento de sus muertos atado al pecho por toda la eternidad.
 
 ### Representación visual y sonora
 
 [Escenario, personajes, expresiones y sonido si aplica. Expliquen su función y el equivalente textual de información indispensable.]
 
-|                                        Figura 1: Dominick                                         |                                         Figura 2: Lirio y Alba                                         |                                            Figura 3: Dominick                                             |
-| :-----------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
-| <img src="imgs/Pasted%20image%2020261013185746.png" alt="Figura 1: Dominick" width="260" /> | <img src="imgs/Pasted%20image%2020261013185814.png" alt="Figura 2: Lirio y Alba" width="260" /> | <img src="imgs/Pasted%20image%2020261013185824.png" alt="Figura 3: Dominick" width="260" /> |
+|                                                                                                                                                                                                                                                                                                                                       Figura 2: Lirio y Alba                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                Figura 3: Dominick                                                                                                                                |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                                                                                                                                                                                    <img src="imgs/Pasted%20image%2020261013185814.png" alt="Figura 2: Lirio y Alba" width="260">                                                                                                                                                                                                                                                                                                    |                                                                                           <img src="imgs/Pasted%20image%2020261013185824.png" alt="Figura 3: Dominick" width="260" />                                                                                            |
+| Las juezas del oráculo. En esta historia Se complementan, no se repelen. Están basadas en el color amarillo y el violeta, los cuales son complementarios en el circulo cromático. El amarillo, siendo un color muy cercano al blanco, representa de cierta forma pureza, y también calidez hacia el espectador, muy expresivo y abierto. Por otro lado, el Violeta es producto del rojo y del azul; el azul tiene una expresión diametralmente opuesta al amarillo, en lugar de acercarse al espectador se aleja, pero al combinarlo con un color como el rojo, lleno de pasión y de fuerza, crea un efecto de introversión, donde Lirio puede ser muy emocional, pero sin llegar a mostrarlo tanto | Un caballero con una naturaleza muy noble. Sin embargo ciertos sucesos desafortunados lo han envuelto en la gélida niebla de la confusión, el arrepentimiento y el desasosiego. el martirio lo atormenta, y quiere encontrar una manera de salir de ahí, o de cubrir sus errores |
 
 
 ### Contenido funcional de la pantalla
 
-| Elemento              | Texto exacto       | Comportamiento y destino         |
-| :-------------------- | :----------------- | :------------------------------- |
-| [Botón o elección]    | [Etiqueta visible] | [Qué ocurre / Sxx]               |
-| [Instrucción o ayuda] | [Texto visible]    | [Cuándo se muestra]              |
-| [Navegación o estado] | [Texto visible]    | [Acción, recuperación o destino] |
+| Elemento | Texto exacto | Comportamiento y destino |
+| :--- | :--- | :--- |
+| Botón de avance inicial (`C01`) | "Cruzar el umbral del santuario" | Inicia el recorrido del jugador y transiciona a `S02`. |
+| Campo de ofrenda (`C02`) | "Inscribe el nombre de la culpa que vienes a purgar" | Entrada de texto ficticio en `S03`; validación de obligatoriedad (activa `E01` si está vacío). |
+| Botón de ofrenda (`C03`) | "Depositar ofrenda y abrir juicio" | Envía el formulario y navega a la manifestación en `S04`. |
+| Opciones dialógicas (`C04` a `C09`) | Etiquetas descriptivas de postura moral (ej. "Reconocer la culpa con pesar", "Bajar la espada y perdonar la vida") | Actualizan los contadores `Afinidad_Alba` y `Afinidad_Lirio`, conduciendo al siguiente estado narrativo. |
+| Botón de confirmación (`C10`) | "Consagrar voto irrevocable" | Cierra el modal `CF01` y desencadena la deliberación en `S10`. |
+| Botón de retorno (`C11`) | "Reconsiderar respuesta" | Cierra `CF01` y regresa a `S09` para modificar la elección sin penalización. |
+| Botón de reinicio (`C12`) | "Reiniciar experiencia" | En `S14`, restablece afinidades a 0 y retorna al inicio en `S01`. |
 
 ### Boceto o captura
 
-[Insertar captura legible y su identificación: Figura xx, pantalla Sxx, versión y fecha. Añadir una breve explicación de su función.]
+`[Captura de Prototipo: Figura 4, Pantalla S01 - Umbral del Santuario, v1.0, Octubre 2026]`
+*Función:* Muestra la composición visual del atrio ruinoso, el contraste lumínico sobre la armadura de Dominick y la ubicación del botón de entrada `C01`, garantizando legibilidad y foco directo en el llamado a la acción.
 
 ### Justificación y comprobación
 
-[Por qué el contenido orienta al público; qué riesgo previene; cómo se comprobará su comprensión. Indiquen el ajuste de accesibilidad de esta pantalla.]
+- **Orientación y prevención:** La separación entre diálogo narrativo y etiquetas funcionales previene que el usuario confunda intenciones poéticas con órdenes del sistema. Se eliminan términos engañosos como "Continuar" a favor de verbos de acción ("Cruzar", "Consagrar").
+- **Comprobación:** Pruebas de recorrido con usuarios para verificar si el tono sombrío induce a la reflexión sin dificultar la identificación de los controles interactivos.
+- **Ajuste de accesibilidad:** Contraste mínimo de 4.5:1 en todos los textos sobre fondos oscuros, tipografía sans-serif legible con interlineado holgado y alternativas textuales en cada ilustración descriptiva.
 
 ---
 
@@ -310,27 +354,27 @@ _Entrega 1 y revisión en la entrega 3_
 
 La voz de la interfaz (sistema) se mantiene neutra, orientadora y solemne en tercera persona, diferenciándose claramente de las voces dramáticas de los personajes (Dominick: introspectivo y marcial; Alba: empática y compasiva; Lirio: analítica y justa).
 
-| Somos                       | No somos                                   | Regla y ejemplo aplicado                                                                                                                                                                                 |
-| :-------------------------- | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Éticamente transparente** | No somos engañosos, ambiguos ni moralistas | Transparentar la postura del personaje en cada botón; no sermonear al usuario sobre lo que "debe" hacer.<br>*Ejemplo (S07):* «Bajar la espada y perdonar la vida: "El ciclo de sangre se detiene aquí"». |
-| **Funcionalmente preciso**  | No somos crípticos ni confusos             | Las instrucciones y etiquetas del sistema indican la acción real con verbos concretos.<br>*Ejemplo (CF01):* «Consagrar voto irrevocable» (en vez de «Aceptar» o «Continuar»).                            |
+| Somos                       | No somos                                   | Regla y ejemplo aplicado                                                                                                                                                                                                    |
+| :-------------------------- | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Éticamente transparente** | No somos engañosos, ambiguos ni moralistas | Transparentar la postura del personaje en cada botón; no tratar al usuario como un niño chiquito sobre lo que "debe" hacer.<br>*Ejemplo (S07):* "Bajar la espada y perdonar la vida: "El ciclo de sangre se detiene aquí"". |
+| **Funcionalmente preciso**  | No somos crípticos ni confusos             | Las instrucciones y etiquetas del sistema indican la acción real con verbos concretos.<br>*Ejemplo (CF01):* "Consagrar voto irrevocable" (en vez de "Aceptar" o "Continuar").                                               |
 
 ### Matriz de tono
 
 | Situación y pantalla            | Emoción y riesgo                                                            | Tono y texto aplicado                                                                                                                                       |
 | :------------------------------ | :-------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Inicio / S01**                | Cautela y misterio. Riesgo: desinterés o falta de inmersión inicial.        | **Solemne y sugerente:** «El Santuario Olvidado aguarda en silencio; solo quienes cargan con una culpa verdadera cruzan su umbral».                         |
-| **Decisión / S05**              | Tensión ética e introspección. Riesgo: desconexión entre intención y botón. | **Firme y comprometido:** «Reconocer la culpa con pesar: "Seguí órdenes crueles y la sangre mancha mis manos"».                                             |
-| **Confirmación / CF01**         | Gravedad e incertidumbre. Riesgo: clic impulsivo no advertido.              | **Advertencia serena y transparente:** «Una vez consagrado este voto, las juezas deliberarán de forma irrevocable. ¿Confirmas tu resolución?».              |
-| **Estado crítico / S08 (CR01)** | Asfixia moral y urgencia. Riesgo: frustración o confusión visual.           | **Tensión psicológica contenida:** «El estanque se agita con violencia. La memoria de tus caídos pesa sobre la espada; sostén la templanza para continuar». |
-| **Éxito o cierre / S14 (EX01)** | Catarsis, serenidad y reflexión. Riesgo: sensación de cierre abrupto.       | **Conclusivo y reflexivo:** «El juicio ha concluido. Has forjado el alma de Dominick como un Caballero Íntegro. El oráculo guarda silencio».                |
+| **Inicio / S01**                | Cautela y misterio. Riesgo: desinterés o falta de inmersión inicial.        | **Solemne y sugerente:** "El Santuario Olvidado aguarda en silencio; solo quienes cargan con una culpa verdadera cruzan su umbral".                         |
+| **Decisión / S05**              | Tensión ética e introspección. Riesgo: desconexión entre intención y botón. | **Firme y comprometido:** "Reconocer la culpa con pesar: "Seguí órdenes crueles y la sangre mancha mis manos"".                                             |
+| **Confirmación / CF01**         | Gravedad e incertidumbre. Riesgo: clic impulsivo no advertido.              | **Advertencia serena y transparente:** "Una vez consagrado este voto, las juezas deliberarán de forma irrevocable. ¿Confirmas tu resolución?".              |
+| **Estado crítico / S08 (CR01)** | Asfixia moral y urgencia. Riesgo: frustración o confusión visual.           | **Tensión psicológica contenida:** "El estanque se agita con violencia. La memoria de tus caídos pesa sobre la espada; sostén la templanza para continuar". |
+| **Éxito o cierre / S14 (EX01)** | Catarsis, serenidad y reflexión. Riesgo: sensación de cierre abrupto.       | **Conclusivo y reflexivo:** "El juicio ha concluido. Has forjado el alma de Dominick como un Caballero Íntegro. El oráculo guarda silencio".                |
 
 ### Convenciones editoriales
 
-- **Tratamiento al público:** Segunda persona sobria («tú / contemplas / eliges») en descripciones ambientales e instrucciones funcionales del sistema; primera persona directa («yo / reconozco / renuncio») en las elecciones dialógicas de Dominick.
-- **Términos consistentes:** Vocabulario canónico fijado en el proyecto: *Oráculo*, *Juicio*, *Santuario*, *Núcleo de las Almas*, *Consagración*, *Voto*, *Redención*.
-- **Estructura y longitud:** Párrafos narrativos breves (máximo 3 líneas en desktop). Microcopy en botones con formato: `[Verbo de acción] + [Carga moral explícita entre comillas]`.
-- **Criterios de lenguaje:** Español neutro culto sin arcaísmos artificiales; inclusión mediante sustantivos colectivos y formulaciones universales («quien cruce el umbral», «la persona frente al oráculo»).
+- **Tratamiento al público:** Segunda persona sobria (tú / contemplas / eliges) en descripciones ambientales e instrucciones funcionales del sistema; primera persona directa (yo / reconozco / renuncio) en las elecciones dialógicas de Dominick.
+- **Términos consistentes:** Vocabulario canónico fijado en el proyecto: *Oráculo*, *Juicio*, *Santuario*, *Consagración*, *Voto*, *Redención*.
+- **Estructura y longitud:** Párrafos narrativos breves (máximo 3 líneas). Microcopy en botones con formato: `[Verbo de acción] + [Carga moral explícita entre comillas]`.
+- **Criterios de lenguaje:** Español neutro culto sin arcaísmos artificiales; inclusión mediante sustantivos colectivos y formulaciones universales ("quien cruce el umbral", "la persona frente al oráculo").
 
 ---
 
@@ -342,45 +386,46 @@ _Entrega 1 y revisión en la entrega 3_
 
 | ID y pantalla  | Tipo y texto exacto                                                                     | Función y justificación                                                                                        |
 | :------------- | :-------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------- |
-| **C01 / S01**  | Botón de avance: «Cruzar el umbral del santuario»                                       | Inicia el recorrido activo del jugador; la redacción enfatiza el compromiso del caballero de entrar al juicio. |
-| **C02 / S03**  | Instrucción de campo: «Inscribe el nombre de la culpa que vienes a purgar»              | Guía la interacción del formulario breve ficticio sin pedir datos personales reales.                           |
-| **C03 / S03**  | Botón de acción: «Depositar ofrenda y abrir juicio»                                     | Envía el voto inicial para hacer aparecer al oráculo dual en S04.                                              |
-| **C04 / S05**  | Botón de elección D01 A: «Reconocer la culpa con pesar: "Seguí órdenes crueles..."»     | Acción dialógica reflexiva; suma afinidad con Alba (+1) y Lirio (+1).                                          |
-| **C05 / S05**  | Botón de elección D01 B: «Justificar el acto por estrategia: "Era la guerra..."»        | Acción dialógica marcial; suma afinidad con Lirio (+1) y resta a Alba (-1).                                    |
-| **C06 / S05**  | Botón de elección D01 C: «Responder con frialdad: "La piedad solo engendra más tumbas"» | Acción dialógica cínica; resta afinidad a ambas siamesas (-1 cada una).                                        |
-| **C07 / S07**  | Botón de elección D02 A: «Bajar la espada y perdonar la vida: "El ciclo termina aquí"»  | Acción ética de clemencia; suma afinidad con Alba (+1) y Lirio (+1).                                           |
-| **C08 / S07**  | Botón de elección D02 B: «Ejecutarlo en nombre de la justicia marcial»                  | Acción punitiva rigurosa; suma afinidad con Lirio (+1) y resta a Alba (-1).                                    |
-| **C09 / S09**  | Botón de consagración D03 A: «Rendir la espada y jurar penitencia»                      | Selecciona la renuncia y abre el modal de confirmación CF01.                                                   |
-| **C10 / CF01** | Botón de confirmación irreversible: «Consagrar voto irrevocable»                        | Ejecuta el paso crítico definitivo hacia la deliberación S10.                                                  |
-| **C11 / CF01** | Botón de retorno: «Reconsiderar respuesta»                                              | Permite regresar a S09 para cambiar la elección de D03 sin penalización.                                       |
-| **C12 / S14**  | Botón de reinicio: «Reiniciar experiencia»                                              | Restablece las variables éticas y devuelve al usuario a S01.                                                   |
+| **C01 / S01**  | Botón de avance: "Cruzar el umbral del santuario"                                       | Inicia el recorrido activo del jugador; la redacción enfatiza el compromiso del caballero de entrar al juicio. |
+| **C02 / S03**  | Instrucción de campo: "Inscribe el nombre de la culpa que vienes a purgar"              | Guía la interacción del formulario breve ficticio sin pedir datos personales reales.                           |
+| **C03 / S03**  | Botón de acción: "Depositar ofrenda y abrir juicio"                                     | Envía el voto inicial para hacer aparecer al oráculo dual en S04.                                              |
+| **C04 / S05**  | Botón de elección D01 A: "Reconocer la culpa con pesar: "Seguí órdenes crueles...""     | Acción dialógica reflexiva; suma afinidad con Alba (+1) y Lirio (+1).                                          |
+| **C05 / S05**  | Botón de elección D01 B: "Justificar el acto por estrategia: "Era la guerra...""        | Acción dialógica marcial; suma afinidad con Lirio (+1) y resta a Alba (-1).                                    |
+| **C06 / S05**  | Botón de elección D01 C: "Responder con frialdad: "La piedad solo engendra más tumbas"" | Acción dialógica cínica; resta afinidad a ambas siamesas (-1 cada una).                                        |
+| **C07 / S07**  | Botón de elección D02 A: "Bajar la espada y perdonar la vida: "El ciclo termina aquí""  | Acción ética de clemencia; suma afinidad con Alba (+1) y Lirio (+1).                                           |
+| **C08 / S07**  | Botón de elección D02 B: "Ejecutarlo en nombre de la justicia marcial"                  | Acción punitiva rigurosa; suma afinidad con Lirio (+1) y resta a Alba (-1).                                    |
+| **C09 / S09**  | Botón de consagración D03 A: "Rendir la espada y jurar penitencia"                      | Selecciona la renuncia y abre el modal de confirmación CF01.                                                   |
+| **C10 / CF01** | Botón de confirmación irreversible: "Consagrar voto irrevocable"                        | Ejecuta el paso crítico definitivo hacia la deliberación S10.                                                  |
+| **C11 / CF01** | Botón de retorno: "Reconsiderar respuesta"                                              | Permite regresar a S09 para cambiar la elección de D03 sin penalización.                                       |
+| **C12 / S14**  | Botón de reinicio: "Reiniciar experiencia"                                              | Restablece las variables éticas y devuelve al usuario a S01.                                                   |
 
 ### Navegación y control
 
 - **Reconocimiento de inicio, ubicación y avance:**
-  - En la parte superior de la interfaz se muestra un indicador sutil de etapa («Etapa I: Umbral», «Etapa II: Juicio», «Etapa III: Veredicto») que orienta sobre el progreso sin invadir el arte.
+  - En la parte superior de la interfaz se muestra un indicador sutil de etapa ("Etapa I: Umbral", "Etapa II: Juicio", "Etapa III: Veredicto") que orienta sobre el progreso sin invadir el arte.
   - El avance se realiza pulsando botones con texto explícito de acción; no existen transiciones automáticas forzadas.
 - **Regreso y memoria de decisiones:**
   - Durante los textos de narración pura se permite releer diálogos mediante el historial de lectura (*Log*).
   - Al tomar una decisión moral significativa (`D01`, `D02`, `D03`), la elección queda fijada inmediatamente en las variables de afinidad y el retroceso queda restringido para mantener el peso y la gravedad de las consecuencias. La interfaz informa esto mediante la microleyenda: *"Tus palabras han sido escuchadas por el santuario"*.
-  - En el punto crítico irreversible (`S09`), se implementa una confirmación explícita (`CF01`) donde el jugador sí puede pulsar «Reconsiderar respuesta» para cambiar su opción antes de que se compute el veredicto final.
+  - En el punto crítico irreversible (`S09`), se implementa una confirmación explícita (`CF01`) donde el jugador sí puede pulsar "Reconsiderar respuesta" para cambiar su opción antes de que se compute el veredicto final.
 - **Reinicio y cierre:**
-  - Al alcanzar cualquiera de los desenlaces y la pantalla de cierre `S14` (`EX01`), se habilita el botón «Reiniciar experiencia», que limpia las variables de sesión y permite explorar las demás ramas éticas.
+  - Al alcanzar cualquiera de los desenlaces y la pantalla de cierre `S14` (`EX01`), se habilita el botón "Reiniciar experiencia", que limpia las variables de sesión y permite explorar las demás ramas éticas.
 
 ### Formulario breve o interacción equivalente
 
 #### Propósito y pertinencia
 
-[Qué dato se solicita, por qué es necesario para esta historia, qué ocurre con él y cómo se evita pedir datos personales reales.]
+En la pantalla S03 se solicita inscribir la culpa o peso moral ficticio que el personaje busca purgar ante el oráculo. Es un dato simbólico de rol que contextualiza la consagración de la ofrenda inicial y habilita la apertura del juicio en S04. Se almacena únicamente en la sesión activa del prototipo sin recopilar nombres, correos ni datos personales reales.
 
-| Campo o control    | Etiqueta e instrucción   | Regla y respuesta                    |
-| :----------------- | :----------------------- | :----------------------------------- |
-| [Nombre]           | [Texto exacto y ejemplo] | [Obligatorio / formato / validación] |
-| [Nombre si aplica] | [Texto exacto]           | [Regla / respuesta]                  |
+| Campo o control | Etiqueta e instrucción | Regla y respuesta |
+| :--- | :--- | :--- |
+| Invocación de culpa (`C02`) | Etiqueta: "Nombre de la culpa"<br>Instrucción: "Inscribe el nombre de la culpa que vienes a purgar (ej. Masacre de Ardon, Cobardía en el asedio)" | Obligatorio. Texto entre 3 y 50 caracteres alfanuméricos ficticios. Si se envía vacío, activa el estado de error E01. |
+| Ofrenda simbólica | Etiqueta: "Tipo de ofrenda"<br>Instrucción: "Selecciona el objeto que dejas en el altar" | Selección única obligatoria (ej. Medallón mellado, Voto de ceniza, Espada rota). Determina el elemento visual depositado en el altar. |
+| Botón de envío (`C03`) | "Depositar ofrenda y abrir juicio" | Envía el formulario, valida los campos y transiciona a S04. |
 
 #### Prevención y confianza
 
-[Qué debe saber la persona antes de actuar, qué consecuencias se explican y cómo se comunican las limitaciones del prototipo sin prometer funciones inexistentes.]
+Antes de enviar la ofrenda, la pantalla informa que el texto ingresado no es público, no se almacena en bases de datos externas ni altera la aflicción moral base del personaje. Se advierte con claridad que el prototipo no cuenta con procesamiento libre de lenguaje natural: la entrada es un catalizador inmersivo local previo a las ramificaciones estructuradas (D01, D02, D03).
 
 ---
 
@@ -411,18 +456,18 @@ Completen todos los estados exigidos. La recuperación debe tener una salida nav
 
 ##### Mensaje definitivo
 - **Título:** *Consagración de Voto Irrevocable*
-- **Texto exacto:** «Estás a punto de sellar tu postura definitiva ante el Núcleo de las Almas. Una vez depositada tu respuesta, las juezas deliberarán de manera irrevocable y no habrá retorno. ¿Deseas consagrar este voto ante el oráculo?»
+- **Texto exacto:** "Estás a punto de sellar tu desición. Una vez depositada tu respuesta, las juezas decidirán y no habrá retorno. ¿Deseas consagrar este voto ante ellas?"
 - **Qué debe entender la persona:** Que el juego entra en su resolución final y que su respuesta actual sellará el veredicto sin posibilidad de cambio posterior.
 - **Tono elegido y justificación:** Tono solemne, transparente y sin apremios, permitiendo una pausa reflexiva antes de la culminación dramática.
 
 | Acción disponible | Etiqueta exacta | Resultado y destino |
 | :---------------- | :-------------- | :------------------ |
-| Confirmar acción | «Consagrar voto irrevocable» | Fija la variable de decisión y transiciona a la deliberación de las siamesas en `S10`. |
-| Cancelar o corregir | «Reconsiderar respuesta» | Cierra el modal y devuelve el control a `S09` para modificar la opción seleccionada. |
+| Confirmar acción | "Consagrar voto irrevocable" | Fija la variable de decisión y transiciona a la deliberación de las siamesas en `S10`. |
+| Cancelar o corregir | "Reconsiderar respuesta" | Cierra el modal y devuelve el control a `S09` para modificar la opción seleccionada. |
 
 ##### Verificación del estado
 - **Activación en el prototipo:** Configurado como interacción *On click* en las opciones de `D03` que abre una superposición (*Open overlay*) centrada con fondo oscurecido al 60%.
-- **Recorrido de recuperación:** Al hacer clic en «Reconsiderar respuesta», se activa *Close overlay*, restableciendo la selección en `S09` sin alterar las variables previas. Al pulsar «Consagrar voto», se ejecuta la navegación a `S10`.
+- **Recorrido de recuperación:** Al hacer clic en "Reconsiderar respuesta", se activa *Close overlay*, restableciendo la selección en `S09` sin alterar las variables previas. Al pulsar "Consagrar voto", se ejecuta la navegación a `S10`.
 - **Evidencia:** Flujo probado en el modo de presentación de Figma verificando navegación bidireccional limpia.
 
 ---
@@ -438,13 +483,13 @@ Completen todos los estados exigidos. La recuperación debe tener una salida nav
 
 ##### Mensaje definitivo
 - **Título:** *La Fractura de la Memoria*
-- **Texto exacto:** «El estanque sagrado hierve en sombras. El peso de tus determinaciones amenaza con doblegar tu espíritu, pero el umbral del Núcleo exige un alma resuelta. Sostén la respiración y da un paso al frente.»
+- **Texto exacto:** "El estanque sagrado hierve en sombras. El peso de tus determinaciones amenaza con doblegar tu espíritu, pero el umbral del Núcleo exige un alma resuelta. Sostén la respiración y da un paso al frente."
 - **Qué debe entender la persona:** Que el juicio está llegando a su fase más crítica y que sus decisiones previas ya han dejado una huella indeleble en el ambiente.
 - **Tono elegido y justificación:** Tono de urgencia psicológica y gravedad épica para enfatizar el clímax narrativo.
 
 | Acción disponible | Etiqueta exacta | Resultado y destino |
 | :---------------- | :-------------- | :------------------ |
-| Avanzar con templanza | «Avanzar hacia el Núcleo» | Transiciona a la prueba final en `S09`. |
+| Avanzar con templanza | "Avanzar hacia el Núcleo" | Transiciona a la prueba final en `S09`. |
 
 ##### Verificación del estado
 - **Activación en el prototipo:** Navegación lineal encadenada desde `S07` tras pulsar cualquier opción de `D02`.
@@ -464,17 +509,17 @@ Completen todos los estados exigidos. La recuperación debe tener una salida nav
 
 ##### Mensaje definitivo
 - **Título:** *El Juicio ha Concluido*
-- **Texto exacto:** «Las aguas del santuario han dictado sentencia. Tus elecciones a lo largo de este viaje forjaron el destino de Dominick. Puedes contemplar las consecuencias de tus actos o reiniciar la travesía para explorar otros senderos morales.»
+- **Texto exacto:** "Las aguas del santuario han dictado sentencia. Tus elecciones a lo largo de este viaje forjaron el destino de Dominick. Puedes contemplar las consecuencias de tus actos o reiniciar la travesía para explorar otros senderos morales."
 - **Qué debe entender la persona:** Que la experiencia concluyó satisfactoriamente, cuál fue el perfil ético final de su protagonista y cómo recomenzar si desea explorar otras rutas.
 - **Tono elegido y justificación:** Tono catártico, reflexivo y conclusivo.
 
-| Acción disponible | Etiqueta exacta | Resultado y destino |
-| :---------------- | :-------------- | :------------------ |
-| Reiniciar recorrido | «Reiniciar experiencia» | Restablece las variables de afinidad a 0 y navega a `S01`. |
+| Acción disponible   | Etiqueta exacta         | Resultado y destino                                        |
+| :------------------ | :---------------------- | :--------------------------------------------------------- |
+| Reiniciar recorrido | "Reiniciar experiencia" | Restablece las variables de afinidad a 0 y navega a `S01`. |
 
 ##### Verificación del estado
 - **Activación en el prototipo:** Conexión interactiva desde los botones de cierre de `S11`, `S12` y `S13` hacia `S14`.
-- **Recorrido:** Al hacer clic en «Reiniciar experiencia», el prototipo vuelve al estado inicial en `S01`.
+- **Recorrido:** Al hacer clic en "Reiniciar experiencia", el prototipo vuelve al estado inicial en `S01`.
 - **Evidencia:** Flujo circular comprobado en Figma (*On click -> Navigate to S01* con reseteo de componentes).
 
 ---
@@ -524,10 +569,10 @@ _Sección transversal a las tres entregas_
 
 ### Procedencia y permisos de los recursos
 
-| Recurso y uso                      | Autor y fuente           | Licencia o permiso         |
-| :--------------------------------- | :----------------------- | :------------------------- |
-| [Imagen, audio o tipografía / Sxx] | [Autor / enlace / fecha] | [Condiciones y atribución] |
-| [Recurso]                          | [Procedencia]            | [Permiso y evidencia]      |
+| Recurso y uso                                                    | Autor y fuente                                                                               | Licencia o permiso |
+| :--------------------------------------------------------------- | :------------------------------------------------------------------------------------------- | :----------------- |
+| Stark plugin / Accessible contrast ratios and A-levels explained | https://www.getstark.co/blog/accessible-contrast-ratios-and-a-levels-explained/ Aug 10, 2021 | WCAG               |
+| De lo espiritual en el arte                                      | Vasili Kandinski. 1911                                                                       |                    |
 
 ### Declaración de uso de IA
 
