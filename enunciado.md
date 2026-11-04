@@ -697,7 +697,7 @@ _Sección transversal a las tres entregas_
 | **A01 / EV01** | Diagrama de flujo narrativo y arquitectura de bifurcaciones (Código Mermaid interactivo y exportación gráfica v1.0). | Sección 3 del presente documento y archivo fuente en el proyecto Obsidian. |
 | **A02 / EV02** | Hojas de diseño de personajes, estudios de vestimenta y teoría cromática de Alba, Lirio y Dominick creadas por Alejandra Ospina. | Carpeta `mermaid_project/imgs/` y lienzos de diseño en Figma. |
 | **A03 / EV03** | Prototipo interactivo navegable de la novela visual en Figma (Versión 1.0 para Entrega 1). | [Enlace directo al prototipo en Figma](https://www.figma.com/make/Bd0zqu6iXAapBSyfUHNjQb/Visual-Novel-Wireframes?t=TjqwrRV7toH5ttIH-1) |
-| **A04 / EV04** | Registro de verificación de accesibilidad cromática y contraste de legibilidad WCAG 2.1 AA realizado con Stark Plugin. | Secciones 2 y 8 del presente documento (`Pasted image 20261015155647.png`). |
+| **A04 / EV04** | Registro de verificación de accesibilidad cromática y contraste de legibilidad WCAG 2.1 AA realizado con Stark Plugin. | Secciones 2 y 8 del presente documento. |
 
 ---
 
